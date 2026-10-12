@@ -322,3 +322,24 @@ button {font:inherit}
   .contact-panel {padding:24px}
   .examples-bar {grid-template-columns:1fr}
 }
+
+/* Website pricing: straightforward, accessible scope FAQ */
+.pricing-faq { max-width: 920px; border-top: 1px solid var(--line); }
+.pricing-faq-item { border-bottom: 1px solid var(--line); }
+.pricing-faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  padding: 23px 0;
+  font-weight: 710;
+  color: var(--ink);
+  font-size: 16px;
+}
+.pricing-faq-item summary::-webkit-details-marker { display: none; }
+.pricing-faq-item summary:focus-visible { outline: 2px solid #157f72; outline-offset: 4px; }
+.pricing-faq-item summary span { color: #128575; font-size: 25px; font-weight: 400; transition: transform .2s; }
+.pricing-faq-item[open] summary span { transform: rotate(45deg); }
+.pricing-faq-item p { max-width: 760px; margin: -1px 0 24px; font-size: 14px; line-height: 1.8; }
