@@ -68,7 +68,7 @@ export default function HomePage() {
       </section>
 
       <section className="section section-soft">
-        <div className="container website-teaser"><div><Eyebrow>Website packages</Eyebrow><h2>A professional website at a straightforward starting price.</h2><p>From a one-page online presence to a fully interactive digital experience, choose the level of website your business actually needs.</p><TextLink href="/websites">See website packages & pricing</TextLink></div><div className="price-teaser"><span>Website packages from</span><strong>R1,000</strong><p>One-page · Multi-page · Interactive</p></div></div>
+        <div className="container website-teaser"><div><Eyebrow>Website packages</Eyebrow><h2>A professional website at a straightforward starting price.</h2><p>Choose a one-page starter, a professional multi-page business website or a Business Plus site with an agreed interactive feature. Custom systems are quoted separately.</p><TextLink href="/websites">See website packages & pricing</TextLink></div><div className="price-teaser"><span>Website packages from</span><strong>R1,000</strong><p>One-page · Multi-page · Interactive</p></div></div>
       </section>
       <CTA/>
     </>
