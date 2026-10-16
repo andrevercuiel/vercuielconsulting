@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
@@ -13,7 +14,7 @@ export function Header() {
     <header className="site-header">
       <div className="container nav-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)} aria-label="Vercuiel Consulting home">
-          <span className="brand-mark">V<span>.</span></span>
+          <Image src="/vercuiel-logo.png" alt="Vercuiel Consulting gold logo" width={46} height={46} style={{ display: "block", flexShrink: 0, borderRadius: 6 }} />
           <span className="brand-name">VERCUIEL<span>CONSULTING</span></span>
         </Link>
         <button type="button" className="mobile-menu-button" aria-label={open ? "Close navigation" : "Open navigation"} aria-expanded={open} onClick={() => setOpen(!open)}>
@@ -37,7 +38,7 @@ export function Footer() {
     <footer className="footer">
       <div className="container footer-top">
         <div>
-          <Link href="/" className="brand brand-footer"><span className="brand-mark">V<span>.</span></span><span className="brand-name">VERCUIEL<span>CONSULTING</span></span></Link>
+          <Link href="/" className="brand brand-footer"><Image src="/vercuiel-logo.png" alt="Vercuiel Consulting gold logo" width={46} height={46} style={{ display: "block", flexShrink: 0, borderRadius: 6 }} /><span className="brand-name">VERCUIEL<span>CONSULTING</span></span></Link>
           <p>Independent business consulting, ERP implementation, automation and professional website development.</p>
           <p className="footer-location">Based in South Africa · Working with businesses nationwide</p>
         </div>
