@@ -40,7 +40,7 @@ export function Footer() {
         <div>
           <Link href="/" className="brand brand-footer"><Image src="/vercuiel-logo.png" alt="Vercuiel Consulting gold logo" width={46} height={46} style={{ display: "block", flexShrink: 0, borderRadius: 6 }} /><span className="brand-name">VERCUIEL<span>CONSULTING</span></span></Link>
           <p>Independent business consulting, ERP implementation, automation and professional website development.</p>
-          <p className="footer-location">Based in South Africa · Working with businesses nationwide</p>
+          <p className="footer-location">8 Cathcart Street, Aberdeen, Eastern Cape, 6270, South Africa · Working with businesses nationwide</p>
         </div>
         <div className="footer-links"><h3>Explore</h3><Link href="/services">Services</Link><Link href="/websites">Websites & Pricing</Link><Link href="/work">Selected Work</Link><Link href="/industries">Industries</Link></div>
         <div className="footer-links"><h3>Consulting</h3><Link href="/services/business-consulting">Business Consulting</Link><Link href="/services/erp-implementation">ERP Solutions</Link><Link href="/services/business-automation">Automation</Link><Link href="/about">Our Story</Link></div>
